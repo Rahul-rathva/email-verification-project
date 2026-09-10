@@ -1,0 +1,26 @@
+{
+  "name": "email-verification-backend",
+  "version": "1.0.0",
+  "description": "Backend for Email Verification Module",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --testEnvironment=node",
+    "test:watch": "jest --testEnvironment=node --watch"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^6.7.0",
+    "validator": "^13.9.0",
+    "dns": "^0.2.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "supertest": "^6.3.3"
+  }
+}
